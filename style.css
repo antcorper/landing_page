@@ -1,0 +1,57 @@
+body {
+    background-image: url("/images/rectangle.png");
+    background-repeat: no-repeat;
+}
+
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: 650px;
+  height: 400px; /* temporal, luego lo quitamos */
+  background-color: aquamarine;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  border-radius: 6px;
+  box-shadow: 0px 7px 20px 0px #a5afc25e;
+  background-image: url("/images/main.png");
+  background-size: cover;
+}
+
+.container h2 {
+  color: white;
+  font-size: 13px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.box h1{
+  color: white;
+}
+/* imagen con textos 
+.container {
+    font-family: open sans;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:auto;
+    display:block;
+  }
+  
+  /* texto"Si quieres..." */
+  .centered {
+    font-family: open sans;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+/*
+  .image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;*/
+/*
